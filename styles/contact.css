@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+article h4{
+		text-decoration:underline;
+		font-weight:bold;
+		font-size:1.5em;
+}
+@media (min-width: 1281px){
+		
+	.contacter{
+			display: grid;
+			gap: 10px;
+			grid-template-columns: repeat(3, calc(20em));
+			grid-template-rows: repeat(10, 2em);
+		}
+		
+	.contact h4{
+		grid-column: 5;
+		grid-row: 1;
+	}
+
+	.contact{
+		margin-top:1em;
+		grid-column: 5;
+		grid-row: 2;
+	}
+	
+	.map{
+		margin-top:0.5em;
+		width:30em;
+		height:20em;
+		grid-column: 1;
+		grid-row: 1;
+	}
+	
+	
+	
+	
+}
+
+
+@media (min-width:601px) and (max-width:1280px){
+	.contacter{
+			display: grid;
+			gap: 10px;
+			grid-template-columns: 20em;
+			grid-template-rows: repeat(15, 2em);
+		}
+		
+	.contact{
+		margin-top:1em;
+		grid-row: 1;
+	}
+	
+
+	
+	.map{
+		margin-top:0.5em;
+		width:30em;
+		height:20em;
+		grid-row: 5;
+	}
+	
+	
+}
+
+@media (max-width:600px){
+	.contacter{
+			display: grid;
+			gap: 10px;
+			grid-template-columns: 20em;
+			grid-template-rows: repeat(12, 2em);
+		}
+		
+	.contact{
+		margin-top:0;
+		grid-row: 1;
+	}
+	
+
+	
+	.map{
+		margin-top:0.5em;
+		width:100%;
+		height:15em;
+		grid-row: 5;
+	}
+	
+	
+}
+
+
+
+form{
+	width:90%;
+	margin: 1rem;
+	padding : 1.5rem;
+	background-color:#d0d4d4;
+}
+form label{
+	margin : 1.5rem;
+	display : inline-block;
+	width : 40%;
+	font-weight : bold;
+	text-decoration:underline;
+	font-style:italic;
+}
+
+form input{
+	margin-left : 15%;
+	display:inline-block;
+	width:80%;
+	border-radius:5px;
+	border:1px solid black;
+	padding:5px 0 5px 5px;
+}
+
+form select{
+	margin-left : 25%;
+	width:50%;
+	display:inline-block;
+	padding:5px 0 5px 5px;
+}
+
+.mail{
+	margin:10px 0 0 1.5rem;
+}
+
+.tel{
+	width:20%;
+	display:inline-block;
+	margin:1px 0 0;
+}
+
+#info_contact_tel1{
+	
+	margin:0 0 0 1.5rem;
+}
+
+#message{
+	height:20rem;
+	width:65%;
+	font-size:16px;
+	border-radius:5px;
+	margin:5px 10% 0;
+}
+.envoyer, .annuler{
+	font-weight : bold;
+	border : 1px solid black;
+	border-radius : 8px;
+	margin:20px 0 -10px 10%;
+	width:65%;
+	font-size:14px;
+	height:10%;
+	padding:1% 0;
+	background-color:#19283A;
+	color:#fff;
+
+}
+
+
+li img{
+		width:1em;
+		height:1em;
+}
+	
+.contact ul{
+	list-style:none;
+	padding-left:1em;
+	box-sizing: border-box;
+	word-wrap:break-word;
+}
+	
+.envoyer:hover{
+	box-shadow: 0 0 10px #42649B;
+	transform: scale(1.1);
+}
+
+.annuler:hover{
+	box-shadow: 0 0 5px red;
+	transform: scale(1.1);
+}

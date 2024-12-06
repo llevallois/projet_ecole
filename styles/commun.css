@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+
+/*Code qui varie selon la taille de la page*/
+@media (min-width:601px){
+	header {
+		justify-content: space-between;
+	}	
+	
+	footer {
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+	footer div {
+		padding-left:3rem;
+	}
+	
+	
+	
+	main div, section{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	
+}
+
+@media (max-width:601px){
+
+	header {
+		flex-wrap:wrap;
+	}
+
+
+	nav a:active {
+		color: #42649B ; 
+		text-shadow:1px 1px 2px black;
+	}
+
+
+	main {
+		padding:20px;
+		min-height:70vh;
+		justify-content:center;
+	}
+
+	.titre_partie{
+		padding-left:20px;
+		justify-content:center;
+		width:calc(100% - 20px);
+		color:white;
+		font-weight:bold;
+		font-size:20px;
+		display: flex;
+	}
+}
+
+
+
+@media (min-width:601px) and (max-width:1280px){
+	main {
+		padding:40px;
+		min-height:70vh;
+	}
+
+	.titre_partie{
+		padding-left:40px;
+		justify-content:center;
+		width:calc(100% - 40px);
+		color:white;
+		font-weight:bold;
+		font-size:20px;
+		display: flex;
+	}
+	
+}
+
+@media (min-width:1281px){
+	main {
+		padding:40px;
+		min-height:70vh;
+		justify-content:center;
+	}
+
+	.titre_partie{
+		padding-left:40px;
+		justify-content:center;
+		width:calc(100% - 40px);
+		color:white;
+		font-weight:bold;
+		font-size:20px;
+	}
+
+	main div, section{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	header div:nth-child(2){
+		padding-left:20em;
+	}
+	
+
+}
+
+/*code constant pour toutes les pages*/
+.ici{
+	color:#826d8c;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica;
+	background-color:#F5F5F5;
+}
+
+header{
+	background-color: #19283A;
+	color: #fff;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+}
+
+.titre{
+	color: #DAA520;
+}
+
+.titre_partie{
+	background-image:url('../images/fond/fond.png');
+	background-color:#19283A;
+}
+header div p{
+	font-size:3em;
+	font-family:'Brush Script MT', cursive;
+}
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #42649B ; 
+	text-shadow:1px 1px 2px #B7C9E2;
+}
+
+footer{
+	align-items: center;
+	background-color: #19283A;
+	padding: 1rem;
+	color:#fff;
+}
+
+footer div h3{
+	text-decoration:underline;
+	font-size:2rem;
+}
+
+footer div a:active{
+	color:#440062;
+} 
+

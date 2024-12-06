@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang = "fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Contact</title>
+		<link rel="icon" href="./images/logo/logo.png">
+		<link rel="stylesheet" href="./styles/contact.css">
+		<link rel="stylesheet" href="./styles/commun.css">
+		</head>
+	
+	<body>
+		<header>
+			<div>
+				<a href="./index.html">
+				<img src="./images/logo/logo.png" alt="logo">
+				</a>
+			</div>
+
+			<div>
+				<p class="titre">Star Akademiya</p>
+			</div>
+			
+			<nav>
+			<div>
+			<ul class="menu_liste">
+				<li><a href="./index.html">Accueil</a></li>
+				<li><a href="./formations.html">Formations</a></li>
+				<li><a class="ici" href="./contact.html">Contact</a></li>
+			</ul>
+			</div>
+			</nav>
+				   
+		</header>
+		
+		<main>
+			<section class="titre_partie">
+					<h3>Contact</h3>
+			</section>
+			
+			<div class="contacter">
+				<article class="contact">
+				<h4>Nous contacter :</h4>
+				<ul>
+					<li><img src="images/contact/tel.png"  alt="téléphone"><a href="tel:7181234567">(718)123-4567</a></li>
+					<li><img src="images/contact/mail.png" alt="mail"><a href="mailto:informations@star-akademiya.com">informations@star-akademiya.com</a></li>
+					<li><img src="images/contact/adresse.png" alt="adresse">Star Akademiya, 25 Ave & 79th St, East Elmhurst, NY 11370, Etats-Unis</li>
+				</ul>
+				</article>
+				<article class="map">
+					<h4>Map :</h4>
+					<iframe 
+						class="map"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1068.4225268478108!2d-73.88998336452877!3d40.76301296351735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25f762327c083%3A0x9fe88167cccfc06f!2sLaGuardia%20Landing%20Lights!5e0!3m2!1sfr!2sfr!4v1701359495224!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+					</iframe>
+					
+					</article>
+			</div>
+			
+			
+			<div>
+				<article class="formulaire">
+					<h4>Formulaire d'inscription :</h4>
+					<form action="" method="post">
+						<label for="prenom">
+							Prénom
+						</label>
+						<input id="prenom" name="prenom_utilisateur" type="text" placeholder="Prénom" required="">
+						
+						<label for="nom">
+							Nom de famille
+						</label>
+						<input id="nom" name="prenom_utilisateur" type="text" placeholder="Nom" required="">
+						
+						<label class="mail" for="contact_mail">
+							Informations de contact
+						</label>
+						<input id="contact_mail" class="mail" name="info_contact_mail" type="text" placeholder="prénom.nom@fournisseur.{com|fr}" pattern="[a-z]\.[a-z][@]\[a-z]\.{(fr)|(com)}" required="">
+						<input class ="tel" id="info_contact_tel1" name="info_contact_tel1" type="tel" placeholder="718" pattern="[0-9]{3}" required=""> -
+						<input class ="tel" id="info_contact_tel2" name="info_contact_tel2" type="tel" placeholder="123" pattern="[0-9]{3}" required=""> -
+						<input class ="tel" id="info_contact_tel3" name="info_contact_tel3" type="tel" placeholder="4567" pattern="[0-9]{4}" required="">
+						
+						
+						<label for="formation_choisie">
+							Quelle formation souhaitez vous?
+						</label>
+						<select id="formation_choisie" name="choix_formation">
+							<option value="gagner">Gagner</option>
+							<option value="vivre">Vivre</option>
+							<option value="combattre">Combattre</option>
+						</select>
+						
+						
+						<label for="message">
+							Laissez un message
+						</label>
+						<textarea id="message" name="message_choisi"></textarea>
+	
+						
+						<input class="envoyer" type="submit" value="Envoyer">
+						<input class="annuler" type="reset" value="Annuler">
+					</form>
+				</article>
+				</div>
+		</main>
+		
+		<footer>
+			<div>
+				<h3>Equipe :</h3>
+				<p>Djouby Vertus</p>
+				<p>Levallois Ludivine</p>
+			</div>
+			<div>
+				<a href="./rapport/Rapport.pdf" target="_blank" download="Rapport_Levallois_Vertus-pdf">rapport (format: pdf)</a>
+				<br>
+				<a href="./rapport/Rapport.docx" target="_blank" download="Rapport_Levallois_Vertus-traitement-de-texte">rapport (format: traitement de texte)</a>
+			</div>
+	</footer>
+
+	</body>
+</html>

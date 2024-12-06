@@ -1,0 +1,175 @@
+body aside div.slider div.slides{
+    border : 0px solid black;
+    background-size : cover;
+    min-height: 5vh;
+    margin-left : 0px;
+    margin-right : 0px;
+    }
+
+
+.slider {
+    overflow : hidden;
+   padding-bottom: 100px;
+  background: #19283A;
+}
+
+.slides{
+    display:flex;
+    flex-direction : row;
+
+
+    animation : mesImages infinite  12s;
+}
+
+
+
+
+
+.slide img {height : 21.875rem;;
+    width : 100rem}
+
+
+
+body .text img {height : 8rem;
+    width : 8rem;}
+
+
+
+
+main div.sponsor img {
+    height : 8rem;
+    width : 8rem;
+
+}
+
+
+main section {margin-right: 25rem;
+  margin-left: 0px;
+  margin-right: 25rem;
+  }
+
+
+
+.mark {
+        position: absolute;
+        left: 86rem;
+        top:33.6rem;
+
+}
+
+
+
+.bord .mark h2 {font-family: 'Brush Script MT',cursive ;font-size :31px;
+margin-bottom: 100px; color :white;}
+.bord .mark{background: #19283A;
+padding-block: 30px;
+padding-left: 20px;
+padding-right:5px;}
+
+@keyframes mesImages {
+  0% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(-100rem);
+    opacity: 1;
+  }
+  40% {
+    transform: translateX(-200rem);
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(-300rem);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+body main {
+    padding: 1rem;
+    margin-right: 40rem;
+    margin-right: 0px;
+}
+
+.ens{text-align: center;
+    color : goldenrod;
+     font-size:2.5rem}
+
+
+
+main section img
+{height : 18.75rem;
+ width : 2.5rem;
+
+transition : height 400ms ease;
+transition : width 400ms ease;
+    ;}
+
+.pro
+{display: flex;}
+
+.PROFF img:hover {
+    border-radius : 1rem;
+  flex-grow: 1;
+    width: 18.75rem;
+    height: 25rem;
+
+}
+
+
+.PROFr img {width: 10rem}
+
+main .Prof {
+margin-left: 300px}
+
+
+body section iframe {width:855px; 
+        height:500px;}
+
+
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.7rem;
+  }
+
+
+  nav ul li {
+    margin-right: 5px; 
+  }
+
+  .slide img{width: 100%;
+            height :100%}
+
+  header {width: 100%;
+          height : 100%}
+
+ 
+  main {
+    padding: 0.5rem; 
+  }
+
+.PROFF img:hover {
+    border-radius : 1rem;
+  flex-grow: 1;
+    width: 250%;
+    height: 120%;
+
+}
+
+.Prof {margin-left: 0px;}
+
+
+  main section {  margin-right: 0px;
+                  width: 100%}
+
+  main section img {
+    height: 60px; 
+    width:30px ; 
+
+}
+}
