@@ -25,3 +25,8 @@ Cette page détaille les différentes formations offertes par Star Akademiya.
 ### 3. En-tête et pied de page
 L'en-tête est composé du logo de la Star Akademiya cliquable et renvoyant à la page d'accueil ainsi que du menu de navigation.
 Le pied de page contient les auteurs ainsi que le rapport.
+
+### Apparence
+
+![webdev iut-orsay fr_~llevall_cwac_formations html](https://github.com/user-attachments/assets/b9283df4-7b13-4083-8054-33093d3bd2ab)
+![webdev iut-orsay fr_~llevall_cwac_contact html](https://github.com/user-attachments/assets/fef3ebd5-f31b-44e0-b906-13506e756f63)
