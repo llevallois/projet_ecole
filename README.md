@@ -2,14 +2,13 @@
 
 ## Contexte général
 
-Nous étions par équipe de deux.
-Nous faisons partie du service informatique d'une école et on vous a chargé d'un projet, nom de code : Communication Innovante - Conception Internet (COIN-COIN). Il s'agit de créer un site Web pour la communication de l'école.
-Nous devions inventer une l'école, avec un nom, un slogan et une identité visuelle. Durant le projet, nous avons produit un site Web pour l'école.
+C'est un projet organisé par l'IUT d'Orsay, lors de notre premier semestre.
+Nous étions par équipe de deux et devions inventer une l'école, avec un nom, un slogan et une identité visuelle. Durant le projet, nous avons produit un site Web pour l'école.
 
 
 ## Structure du projet
 
-Je me suis occupée des pages de contact et de formations et leurs CSS tandis que mon coéquipier s'est occupé de la page d'accueil et de son CSS associé.
+Je me suis occupée des pages de contact et de formations et leurs CSS tandis que mon coéquipier Djouby Vertus s'est occupé de la page d'accueil et de son CSS associé.
 
 ### 1. contact.html
 
